@@ -22,7 +22,6 @@ public class TestEditor {
         capabilities.setCapability("automationName", "UiAutomator2");
         capabilities.setCapability("newCommandTimeout", "1000");
         capabilities.setCapability("appActivity", "com.atlasv.android.mvmaker.mveditor.SplashActivity");
-        capabilities.setCapability("newCommandTimeout", "1000");
         capabilities.setCapability("appPackage", "vidma.video.editor.videomaker");
         capabilities.setCapability("autoGrantPermissions", false);
         capabilities.setCapability("noReset", true);
